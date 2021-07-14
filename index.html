@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>BookHub | Home</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">BookHub</div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/">Home</a></li>
+                    <li class="nav-item"><a href="#books">Books</a></li>
+                    <li class="nav-item"><a href="#about">About Us</a></li>
+                    <li class="nav-item"><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="nav-btns">
+                    <button class="btn-m sign-up" id="sign-up">Sign Up</button>
+                    <button class="btn-m login" id="login">Login</button>
+                </div>
+                    <i class="menu-btn fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Welcome to BookHub</h1>
+                <h2>Increase your knowledge by getting books here</h2>
+            </div>
+            <img class="header-svg" src="images/wave.svg" alt="waves svg">
+                <!-- Login form -->
+   <div class="form-container" id="form">
+    <div class="close-btn">
+     <i class="far fa-times-circle"></i>
+    </div>
+    <div class="sign-up-container">
+         <form class="sign-up-form" action="/" method="POST">
+             <h2>Sign Up</h2>
+             <h5>Welcome, please sign up below to continue!</h5>
+             <input type="text" class="sign-up-input" id="sign-up-input" placeholder="Username">
+             <input type="email" name="user-email" id="user-email" placeholder="Email">
+             <input type="password" name="password" id="password" placeholder="Password">
+             <div class="sign-up-check">
+             <input type="checkbox" name="remember-me" id="remember-me"><label>Remember Me</label>
+             </div>
+             <button type="submit" class="form-sign-up-btn">Sign Up</button>
+         </form>
+    </div>
+    <div class="login-container">
+        <form class="login-form" action="/" method="POST">
+             <h2>Login</h2>
+             <h5>Welcome back, please login to continue</h5>
+             <input type="text" class="login-input" id="login-input" placeholder="Username">
+             <input type="password" name="password" id="password-login" placeholder="Password">
+             <button type="submit" class="form-login-btn">Login</button>
+         </form>
+    </div>
+</div>
+        </header>
+        <main class="main">
+            <section class="hero" id="about">
+                <div class="hero-container">
+                <div class="hero-header" id="header-animate">
+                    <h2>About Us</h2>
+                </div>
+                </div>
+                <article class="article-container">
+                    <div class="article-content">
+                        <div class="content-card picture">
+                            <!-- <img src="/images/girl-160172.svg" alt=""> -->
+                        </div>
+                        <div class="content-card text">
+                            <h3>We sell official new & used books</h3>
+                            <p>
+                                BookHub was founded to meet the high rise demand for both hardcopy and softcopy books.
+                                We strive to offer book enthusiasts the best possible buying experience - this includes an industry-leading customer service, mobile-friendly layout, free shipping (including international orders!), consistently affordable pricing, and access to the most sought-after books on the market. And each purchased book makes a difference in someone's life through our literacy partner programs.
+                            </p>
+                            <h3>Our Mission</h3>
+                            <p>
+                                To become the number one retail book store supplying Kenyan's with original content. 
+                            </p>
+                            <div class="content-btn">
+                                <button class="call-to-action"><i class="fas fa-shopping-cart"></i>Shop Now</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </article>
+            </section>
+            <section class="products" id="books">
+                <div class="hero-container">
+                <div class="hero-header">
+                    <h2>Books</h2>
+                </div>
+                </div>
+                <div class="products-container">
+                    <div class="product-card">
+                            <img class="product-img" src="/images/Products/pablo.jpeg" alt="Pablo Escobar">
+                            <div class="card-info">
+                                <h3>Pablo Escobar</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/hackers.jpeg" alt="Hackers">
+                            <div class="card-info">
+                                <h3>Hackers</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/psychologyofmoney.jpeg" alt="Psychologyofmoney">
+                            <div class="card-info">
+                                <h3>Psychology of Money</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/richdadpoordad.jpeg" alt="Rich Dad Poor Dad">
+                            <div class="card-info">
+                                <h3>Rich Dad Poor Dad</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/stevejobs.jpeg" alt="Pablo Escobar">
+                            <div class="card-info">
+                                <h3>Steve Jobs</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/barackobama.jpeg" alt="Hackers">
+                            <div class="card-info">
+                                <h3>A promised Land</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/atomichabbits.jpeg" alt="Psychologyofmoney">
+                            <div class="card-info">
+                                <h3>Atomic Habbits</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-img" src="/images/Products/alchemist.jpeg" alt="Rich Dad Poor Dad">
+                            <div class="card-info">
+                                <h3>The Alchemist</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quibusdam numquam consectetur commodi quos unde deleniti enim dolores recusandae maiores.</p>
+                                <button class="card-btn">Read More</button>
+                            </div>
+                        </div>    
+                    </div>
+            </section>
+        </main>
+        <aside class="aside">
+            <div id="testimonials">
+                <div class="testimonials-container">
+                    <h2>Testimonials</h2>
+                    <div class="owl-carousel owl-theme">
+                        <div class="testimonials-box item">
+                            <div class="testimonial-photo">
+                                <img src="/images/profilepic.svg" alt="Profile picture">
+                            </div>
+                            <h3>John Doe</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi ex facere sequi est, veritatis dicta, dolores, autem libero doloremque accusamus magnam quis ea minima tempore repudiandae eum molestias eos.
+                            </p>
+                        </div>
+                        <div class="testimonials-box item">
+                            <div class="testimonial-photo">
+                                <img src="/images/profilepic.svg" alt="Profile picture">
+                            </div>
+                            <h3>Billie Jean</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi ex facere sequi est, veritatis dicta, dolores, autem libero doloremque accusamus magnam quis ea minima tempore repudiandae eum molestias eos.
+                            </p>
+                        </div>
+                        <div class="testimonials-box item">
+                            <div class="testimonial-photo">
+                                <img src="/images/profilepic.svg" alt="Profile picture">
+                            </div>
+                            <h3>Mack Vedo</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi ex facere sequi est, veritatis dicta, dolores, autem libero doloremque accusamus magnam quis ea minima tempore repudiandae eum molestias eos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <div class="logo">BookHub</div>
+                    <p>Follow us on all social media platforms to see updates on new books.
+                        We are glad to be your book supplier. All types of books are available both softcopy and hardcopy books.
+                        Sign Up to create an account with us.
+                    </p>
+                </div>
+                <div class="news-letter" id="contact">
+                    <div class="email-input">
+                        <label for="email">Subscribe to our News Letter</label><br>
+                        <span>Recieve all our latest offers and new books</span><br>
+                        <input type="email" name="email" id="email" placeholder="Enter your email address">
+                        <button class="sub-btn" type="submit">Submit</button>
+                    </div>
+                    <div class="contact">
+                        <i class="fas fa-phone-square-alt">  +254 700 003 458</i><br>
+                        <i class="fas fa-envelope">  <a href="#">imuthomi85@gmail.com</a></i>
+                    </div>
+                    <div class="socials">
+                        <div class="social-links">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <ul class="footer-nav">
+                        <li class="footer-item"><a href="/">Home</a></li>
+                        <li class="footer-item"><a href="#books">Books</a></li>
+                        <li class="footer-item"><a href="#about">About Us</a></li>
+                        <li class="footer-item"><a href="#contact">Contact Us</a></li>
+                        <li class="footer-item"><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button onclick="topFunction()" class="scroll-up"><i class="fas fa-arrow-up"></i></button>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+    
+</html>
